@@ -1,4 +1,4 @@
-# No if-else statements in JSX
+### No if-else statements in JSX
 
 https://react-cn.github.io/react/tips/if-else-in-JSX.html
 
@@ -12,7 +12,7 @@ Alternatives:
 
 1. ternary
 
-```
+```babel
 class MovieCard extends Component {
 
   render() {
@@ -43,7 +43,7 @@ class MovieCard extends Component {
 
 2. Set the value outside of the JSX (above the return statement) (above the render statement?)
 
-```
+```render-babel
 var logInOutButton;
 if (loggedIn) {
     logInOutButton = <LogoutButton />
